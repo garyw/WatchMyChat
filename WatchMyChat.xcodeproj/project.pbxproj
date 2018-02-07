@@ -22,6 +22,10 @@
 		4E376726202987390056A03A /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E376725202987390056A03A /* NotificationController.swift */; };
 		4E376728202987390056A03A /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E376727202987390056A03A /* ComplicationController.swift */; };
 		4E37672A202987390056A03A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E376729202987390056A03A /* Assets.xcassets */; };
+		A75BC1999ABAD5FE5BF40E14 /* Pods_WatchMyChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46A955C4626236C0FFABC18F /* Pods_WatchMyChatTests.framework */; };
+		ABF8F2F1E29B4B2184D45D3A /* Pods_WatchMyChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AE77FFFF7745FD3FFD7E409 /* Pods_WatchMyChat.framework */; };
+		AC18A6E87BE04AB7409E408C /* Pods_WatchMyChat_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D8CB972615E15A3A5ECA7CE /* Pods_WatchMyChat_WatchKit_App.framework */; };
+		FA4AD09E458787F3CC079CBE /* Pods_WatchMyChat_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A713A722C1C8895DA0C07F24 /* Pods_WatchMyChat_WatchKit_Extension.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +78,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		064A6B71186478EB45A91CE9 /* Pods-WatchMyChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchMyChatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WatchMyChatTests/Pods-WatchMyChatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0BAE5500E3D616A3F6B26530 /* Pods-WatchMyChat WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchMyChat WatchKit App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WatchMyChat WatchKit App/Pods-WatchMyChat WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		22583B14B36EC3FC9BB5F824 /* Pods-WatchMyChat WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchMyChat WatchKit App.release.xcconfig"; path = "Pods/Target Support Files/Pods-WatchMyChat WatchKit App/Pods-WatchMyChat WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		335DEA605D79D3362AFF6EBB /* Pods-WatchMyChat WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchMyChat WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WatchMyChat WatchKit Extension/Pods-WatchMyChat WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		3C2CD3D5C2323AFED2001924 /* Pods-WatchMyChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchMyChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WatchMyChat/Pods-WatchMyChat.debug.xcconfig"; sourceTree = "<group>"; };
+		46A955C4626236C0FFABC18F /* Pods_WatchMyChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WatchMyChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E3766F0202987390056A03A /* WatchMyChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchMyChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E3766F3202987390056A03A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E3766F5202987390056A03A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -96,6 +106,12 @@
 		4E376729202987390056A03A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E37672B202987390056A03A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E37672C202987390056A03A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		4FA1FD46665516D7EE6F27D3 /* Pods-WatchMyChat WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchMyChat WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-WatchMyChat WatchKit Extension/Pods-WatchMyChat WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		51EC2E9AEE7BD9BA784AE640 /* Pods-WatchMyChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchMyChatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WatchMyChatTests/Pods-WatchMyChatTests.release.xcconfig"; sourceTree = "<group>"; };
+		5D8CB972615E15A3A5ECA7CE /* Pods_WatchMyChat_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WatchMyChat_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AE77FFFF7745FD3FFD7E409 /* Pods_WatchMyChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WatchMyChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A713A722C1C8895DA0C07F24 /* Pods_WatchMyChat_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WatchMyChat_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B35372C6E3592A10AED4C8D6 /* Pods-WatchMyChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchMyChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-WatchMyChat/Pods-WatchMyChat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABF8F2F1E29B4B2184D45D3A /* Pods_WatchMyChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A75BC1999ABAD5FE5BF40E14 /* Pods_WatchMyChatTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +135,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA4AD09E458787F3CC079CBE /* Pods_WatchMyChat_WatchKit_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC58C02C3FBCE1FAA873A6BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC18A6E87BE04AB7409E408C /* Pods_WatchMyChat_WatchKit_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +158,8 @@
 				4E376711202987390056A03A /* WatchMyChat WatchKit App */,
 				4E376720202987390056A03A /* WatchMyChat WatchKit Extension */,
 				4E3766F1202987390056A03A /* Products */,
+				F2802A39C7F516E45113D155 /* Pods */,
+				A37AF03A45994BC55611880B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -191,6 +220,32 @@
 			path = "WatchMyChat WatchKit Extension";
 			sourceTree = "<group>";
 		};
+		A37AF03A45994BC55611880B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8AE77FFFF7745FD3FFD7E409 /* Pods_WatchMyChat.framework */,
+				5D8CB972615E15A3A5ECA7CE /* Pods_WatchMyChat_WatchKit_App.framework */,
+				A713A722C1C8895DA0C07F24 /* Pods_WatchMyChat_WatchKit_Extension.framework */,
+				46A955C4626236C0FFABC18F /* Pods_WatchMyChatTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2802A39C7F516E45113D155 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C2CD3D5C2323AFED2001924 /* Pods-WatchMyChat.debug.xcconfig */,
+				B35372C6E3592A10AED4C8D6 /* Pods-WatchMyChat.release.xcconfig */,
+				0BAE5500E3D616A3F6B26530 /* Pods-WatchMyChat WatchKit App.debug.xcconfig */,
+				22583B14B36EC3FC9BB5F824 /* Pods-WatchMyChat WatchKit App.release.xcconfig */,
+				335DEA605D79D3362AFF6EBB /* Pods-WatchMyChat WatchKit Extension.debug.xcconfig */,
+				4FA1FD46665516D7EE6F27D3 /* Pods-WatchMyChat WatchKit Extension.release.xcconfig */,
+				064A6B71186478EB45A91CE9 /* Pods-WatchMyChatTests.debug.xcconfig */,
+				51EC2E9AEE7BD9BA784AE640 /* Pods-WatchMyChatTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -198,10 +253,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E376737202987390056A03A /* Build configuration list for PBXNativeTarget "WatchMyChat" */;
 			buildPhases = (
+				04662F33B85CFF599CB6C5CC /* [CP] Check Pods Manifest.lock */,
 				4E3766EC202987390056A03A /* Sources */,
 				4E3766ED202987390056A03A /* Frameworks */,
 				4E3766EE202987390056A03A /* Resources */,
 				4E376736202987390056A03A /* Embed Watch Content */,
+				C523ADE45FF4F30D03276B71 /* [CP] Embed Pods Frameworks */,
+				1B0FA9272F7544FAB0D67D95 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -217,9 +275,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E37673A202987390056A03A /* Build configuration list for PBXNativeTarget "WatchMyChatTests" */;
 			buildPhases = (
+				42EB1724396606AD99239623 /* [CP] Check Pods Manifest.lock */,
 				4E376700202987390056A03A /* Sources */,
 				4E376701202987390056A03A /* Frameworks */,
 				4E376702202987390056A03A /* Resources */,
+				338ADBBF24ED4315173D923E /* [CP] Embed Pods Frameworks */,
+				7E62158D05498A0D51D6664E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,8 +296,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E376733202987390056A03A /* Build configuration list for PBXNativeTarget "WatchMyChat WatchKit App" */;
 			buildPhases = (
+				CA893A2ED37D35EEFF82B6A4 /* [CP] Check Pods Manifest.lock */,
 				4E37670B202987390056A03A /* Resources */,
 				4E376732202987390056A03A /* Embed App Extensions */,
+				AC58C02C3FBCE1FAA873A6BF /* Frameworks */,
+				1138DAC6815E631A959F6898 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -252,9 +316,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E37672F202987390056A03A /* Build configuration list for PBXNativeTarget "WatchMyChat WatchKit Extension" */;
 			buildPhases = (
+				75D08B4E013C648F8FCDE49D /* [CP] Check Pods Manifest.lock */,
 				4E376718202987390056A03A /* Sources */,
 				4E376719202987390056A03A /* Frameworks */,
 				4E37671A202987390056A03A /* Resources */,
+				A627BDC226182BA02FF9FF86 /* [CP] Embed Pods Frameworks */,
+				A21A7BBE5F2C8B59756D673F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -351,6 +418,189 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04662F33B85CFF599CB6C5CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WatchMyChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1138DAC6815E631A959F6898 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WatchMyChat WatchKit App/Pods-WatchMyChat WatchKit App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B0FA9272F7544FAB0D67D95 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WatchMyChat/Pods-WatchMyChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		338ADBBF24ED4315173D923E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WatchMyChatTests/Pods-WatchMyChatTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42EB1724396606AD99239623 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WatchMyChatTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75D08B4E013C648F8FCDE49D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WatchMyChat WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E62158D05498A0D51D6664E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WatchMyChatTests/Pods-WatchMyChatTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A21A7BBE5F2C8B59756D673F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WatchMyChat WatchKit Extension/Pods-WatchMyChat WatchKit Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A627BDC226182BA02FF9FF86 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WatchMyChat WatchKit Extension/Pods-WatchMyChat WatchKit Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C523ADE45FF4F30D03276B71 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WatchMyChat/Pods-WatchMyChat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/OAuthSwift/OAuthSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OAuthSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WatchMyChat/Pods-WatchMyChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA893A2ED37D35EEFF82B6A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WatchMyChat WatchKit App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4E3766EC202987390056A03A /* Sources */ = {
@@ -538,6 +788,7 @@
 		};
 		4E376730202987390056A03A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 335DEA605D79D3362AFF6EBB /* Pods-WatchMyChat WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -555,6 +806,7 @@
 		};
 		4E376731202987390056A03A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FA1FD46665516D7EE6F27D3 /* Pods-WatchMyChat WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -572,6 +824,7 @@
 		};
 		4E376734202987390056A03A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BAE5500E3D616A3F6B26530 /* Pods-WatchMyChat WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -590,6 +843,7 @@
 		};
 		4E376735202987390056A03A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22583B14B36EC3FC9BB5F824 /* Pods-WatchMyChat WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -608,6 +862,7 @@
 		};
 		4E376738202987390056A03A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C2CD3D5C2323AFED2001924 /* Pods-WatchMyChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -623,6 +878,7 @@
 		};
 		4E376739202987390056A03A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B35372C6E3592A10AED4C8D6 /* Pods-WatchMyChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -638,6 +894,7 @@
 		};
 		4E37673B202987390056A03A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 064A6B71186478EB45A91CE9 /* Pods-WatchMyChatTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -654,6 +911,7 @@
 		};
 		4E37673C202987390056A03A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51EC2E9AEE7BD9BA784AE640 /* Pods-WatchMyChatTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
