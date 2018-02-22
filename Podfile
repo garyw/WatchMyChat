@@ -7,6 +7,7 @@ target 'WatchMyChat' do
 
   # Pods for WatchMyChat
   pod 'OAuthSwift', '~> 1.2.0'
+  pod 'Socket.IO-Client-Swift', '~> 13.1.0'
 
   target 'WatchMyChatTests' do
     inherit! :search_paths

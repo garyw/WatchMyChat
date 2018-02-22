@@ -155,6 +155,7 @@
 		4E3766E7202987390056A03A = {
 			isa = PBXGroup;
 			children = (
+				4E79C8B6203E685100C8433D /* Utilities */,
 				4E3766F2202987390056A03A /* WatchMyChat */,
 				4E376707202987390056A03A /* WatchMyChatTests */,
 				4E376711202987390056A03A /* WatchMyChat WatchKit App */,
@@ -221,6 +222,13 @@
 				4E37672C202987390056A03A /* PushNotificationPayload.apns */,
 			);
 			path = "WatchMyChat WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		4E79C8B6203E685100C8433D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		A37AF03A45994BC55611880B /* Frameworks */ = {
@@ -575,10 +583,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-WatchMyChat/Pods-WatchMyChat-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/OAuthSwift/OAuthSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OAuthSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
