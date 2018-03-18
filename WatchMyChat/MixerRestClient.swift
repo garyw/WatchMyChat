@@ -15,6 +15,10 @@ public class MixerRest
     
     private var cred: OAuthSwiftCredential? = nil
     
+    public var chatEndpoints : [String] = []
+    
+    public var chatConnection : ChatClient = ChatClient(endpointList: ["http://mixer.com"])
+    
     private var oauthClient : OAuth2Swift = OAuth2Swift(
         consumerKey:    "00dd436c3eaeedb39cbef172cd585d85f91957111d402de7",
         consumerSecret: "73560dd739e93890c214ae858ac273c8e47f79c870bbd24aa81ad3916fb4c8d0",
@@ -50,7 +54,7 @@ public class MixerRest
     {
         if let viewController = MixerRest.oauthUxParent
         {
-            if (cred != nil)
+            if (cred == nil)
             {
                 oauthClient.allowMissingStateCheck = true
                 
@@ -79,7 +83,7 @@ public class MixerRest
                     }
                     else
                     {
-                        self.readMixerChatInfo(channelId: UserDefaults.standard.object(forKey: "channelId") as! uint)
+                        self.readMixerChatInfo(channelId: UserDefaults.standard.object(forKey: "channelId") as! Int)
                     }
                 }, failure: { (error) in
                     print(error.localizedDescription)
@@ -89,8 +93,8 @@ public class MixerRest
             {
                 readMixerUserId()
             }
-            else if (UserDefaults.standard.string(forKey: "chatAuthkey") == nil) {
-                readMixerChatInfo(channelId: UserDefaults.standard.object(forKey: "channelId") as! uint)
+            else {
+                readMixerChatInfo(channelId: UserDefaults.standard.object(forKey: "channelId") as! Int)
             }
         }
     }
@@ -106,7 +110,7 @@ public class MixerRest
 
             if let json = try? response.jsonObject() {
                 if let userDictionary = json as? [String : Any] {
-                    if let userId = userDictionary["id"] as? uint {
+                    if let userId = userDictionary["id"] as? Int {
                         UserDefaults.standard.set(userId, forKey: "mixerId")
                     }
                     
@@ -115,7 +119,7 @@ public class MixerRest
                     }
                     
                     if let channelDictionary = userDictionary["channel"] as? [String : Any] {
-                        if let channelId = channelDictionary["id"] as? uint {
+                        if let channelId = channelDictionary["id"] as? Int {
                             UserDefaults.standard.set(channelId, forKey: "channelId")
                             self.readMixerChatInfo(channelId: channelId)
                         }
@@ -127,7 +131,7 @@ public class MixerRest
         })
     }
     
-    public func readMixerChatInfo(channelId: uint)
+    public func readMixerChatInfo(channelId: Int)
     {
         let uri : String = "https://mixer.com/api/v1/chats/\(channelId)"
         
@@ -143,7 +147,10 @@ public class MixerRest
                     }
                     
                     if let endpoints = chatDictionary["endpoints"] as? [String] {
+                        self.chatEndpoints = endpoints
                         UserDefaults.standard.set(endpoints, forKey: "chatEndpoints")
+                        self.chatConnection = ChatClient(endpointList: endpoints)
+                        self.chatConnection.connect()
                     }
                 }
             }
