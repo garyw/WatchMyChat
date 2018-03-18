@@ -1,0 +1,6 @@
+framework module Pods_WatchMyChat_WatchKit_App {
+  umbrella header "Pods-WatchMyChat WatchKit App-umbrella.h"
+
+  export *
+  module * { export * }
+}
