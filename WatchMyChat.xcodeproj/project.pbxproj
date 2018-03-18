@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4E3766F4202987390056A03A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3766F3202987390056A03A /* AppDelegate.swift */; };
-		4E3766F6202987390056A03A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3766F5202987390056A03A /* ViewController.swift */; };
+		4E3766F6202987390056A03A /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3766F5202987390056A03A /* ChatViewController.swift */; };
 		4E3766F9202987390056A03A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E3766F7202987390056A03A /* Main.storyboard */; };
 		4E3766FB202987390056A03A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E3766FA202987390056A03A /* Assets.xcassets */; };
 		4E3766FE202987390056A03A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E3766FC202987390056A03A /* LaunchScreen.storyboard */; };
@@ -23,6 +23,7 @@
 		4E376728202987390056A03A /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E376727202987390056A03A /* ComplicationController.swift */; };
 		4E37672A202987390056A03A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E376729202987390056A03A /* Assets.xcassets */; };
 		4E79C8B5203CDDEA00C8433D /* MixerRestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E79C8B4203CDDEA00C8433D /* MixerRestClient.swift */; };
+		4EAD4E3C203F1B920022F9CA /* ChatClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAD4E3B203F1B920022F9CA /* ChatClient.swift */; };
 		A75BC1999ABAD5FE5BF40E14 /* Pods_WatchMyChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46A955C4626236C0FFABC18F /* Pods_WatchMyChatTests.framework */; };
 		ABF8F2F1E29B4B2184D45D3A /* Pods_WatchMyChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AE77FFFF7745FD3FFD7E409 /* Pods_WatchMyChat.framework */; };
 		AC18A6E87BE04AB7409E408C /* Pods_WatchMyChat_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D8CB972615E15A3A5ECA7CE /* Pods_WatchMyChat_WatchKit_App.framework */; };
@@ -87,7 +88,7 @@
 		46A955C4626236C0FFABC18F /* Pods_WatchMyChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WatchMyChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E3766F0202987390056A03A /* WatchMyChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchMyChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E3766F3202987390056A03A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4E3766F5202987390056A03A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4E3766F5202987390056A03A /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		4E3766F8202987390056A03A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4E3766FA202987390056A03A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E3766FD202987390056A03A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -108,6 +109,7 @@
 		4E37672B202987390056A03A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E37672C202987390056A03A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		4E79C8B4203CDDEA00C8433D /* MixerRestClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixerRestClient.swift; sourceTree = "<group>"; };
+		4EAD4E3B203F1B920022F9CA /* ChatClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatClient.swift; sourceTree = "<group>"; };
 		4FA1FD46665516D7EE6F27D3 /* Pods-WatchMyChat WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchMyChat WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-WatchMyChat WatchKit Extension/Pods-WatchMyChat WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
 		51EC2E9AEE7BD9BA784AE640 /* Pods-WatchMyChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchMyChatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WatchMyChatTests/Pods-WatchMyChatTests.release.xcconfig"; sourceTree = "<group>"; };
 		5D8CB972615E15A3A5ECA7CE /* Pods_WatchMyChat_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WatchMyChat_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -181,7 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				4E3766F3202987390056A03A /* AppDelegate.swift */,
-				4E3766F5202987390056A03A /* ViewController.swift */,
+				4E3766F5202987390056A03A /* ChatViewController.swift */,
 				4E3766F7202987390056A03A /* Main.storyboard */,
 				4E3766FA202987390056A03A /* Assets.xcassets */,
 				4E3766FC202987390056A03A /* LaunchScreen.storyboard */,
@@ -227,6 +229,7 @@
 		4E79C8B6203E685100C8433D /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				4EAD4E3B203F1B920022F9CA /* ChatClient.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -622,8 +625,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E3766F6202987390056A03A /* ViewController.swift in Sources */,
+				4E3766F6202987390056A03A /* ChatViewController.swift in Sources */,
 				4E79C8B5203CDDEA00C8433D /* MixerRestClient.swift in Sources */,
+				4EAD4E3C203F1B920022F9CA /* ChatClient.swift in Sources */,
 				4E3766F4202987390056A03A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
